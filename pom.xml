@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.metalloid-project</groupId>
-    <artifactId>example-project</artifactId>
-    <version>1.0.0</version>
+    <artifactId>metalloid-example-project</artifactId>
+    <version>2.0.0</version>
     <packaging>jar</packaging>
 
     <name>Metalloid Example Project</name>
-    <url>https://github.com/Metalloid-Project/example-project</url>
+    <url>https://github.com/Rafal-Laskowski/Metalloid-Example-Project</url>
     <description>Example Project with Metalloid functionalities</description>
 
     <properties>
@@ -16,7 +16,8 @@
     </properties>
 
     <build>
-        <sourceDirectory>src</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -107,7 +108,7 @@
         <dependency>
             <groupId>com.github.metalloid-project</groupId>
             <artifactId>metalloid-core</artifactId>
-            <version>1.0.6</version>
+            <version>2.0.0</version>
         </dependency>
     </dependencies>
 
@@ -132,16 +133,16 @@
     <developers>
         <developer>
             <name>Rafał Laskowski</name>
-            <email>metalloidproject@gmail.com</email>
+            <email>rafal.laskowski@outlook.com</email>
             <organization>TestOps - Rafał Laskowski</organization>
-            <organizationUrl>https://github.com/Metalloid-Project</organizationUrl>
+            <organizationUrl>https://github.com/Rafal-Laskowski</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/Metalloid-Project/example-project.git</connection>
-        <developerConnection>scm:git:ssh://github.com/Metalloid-Project/example-project.git</developerConnection>
-        <url>https://github.com/Metalloid-Project/name</url>
+        <connection>scm:git:git://github.com/Rafal-Laskowski/Metalloid-Example-Project.git</connection>
+        <developerConnection>scm:git:ssh://github.com/Rafal-Laskowski/Metalloid-Example-Project.git</developerConnection>
+        <url>https://github.com/Rafal-Laskowski/Metalloid-Example-Project</url>
     </scm>
 
     <profiles>

@@ -1,8 +1,8 @@
 package com.github.metalloid.demo.pageobjects;
 
+import com.github.metalloid.demo.Selenium;
 import com.github.metalloid.demo.controls.Link;
 import com.github.metalloid.pagefactory.FindBy;
-import com.github.metalloid.webdriver.WebDriverPool;
 
 public class MyStore extends PageObject {
 
@@ -10,7 +10,7 @@ public class MyStore extends PageObject {
     private Link contactUs;
 
     public MyStore open() {
-        WebDriverPool.get().get("http://automationpractice.com/index.php");
+        Selenium.get().get("http://automationpractice.com/index.php");
         return this;
     }
 
